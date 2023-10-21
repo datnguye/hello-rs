@@ -7,7 +7,6 @@ authors = ["Dat Nguyen <datnguyen.it09@gmail.com>"]
 readme = "README.md"
 homepage = "https://github.com/datnguye/hello-rs"
 repository = "https://github.com/datnguye/hello-rs"
-license = "MIT"
 license-file = "LICENSE"
 keywords = ["hello", "world"]
 categories = ["command-line-utilities", "development-tools::cargo-plugins"]

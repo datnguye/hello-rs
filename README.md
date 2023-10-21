@@ -1,5 +1,7 @@
 # hello-rs (hola)
 
+[![Crates.io](https://img.shields.io/crates/v/hola?style=flat-square)](https://crates.io/crates/hola)
+
 Hello CLI in Rust
 
 ```bash
@@ -13,7 +15,7 @@ hola --name World
 - Install `hola` CLI:
 
     ```bash
-    cargo install hola --upgrade
+    cargo install hola
     ```
 
 - Check `--help` for the CLI reference:

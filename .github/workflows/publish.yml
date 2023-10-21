@@ -1,0 +1,22 @@
+name: Publish crates.io
+
+on:
+  release:
+    types: [created]
+
+jobs:
+  publish:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Install dependencies
+      run: cargo install set-cargo-version
+    - name: Login
+      run: cargo login ${{ secrets.CRATES_TOKEN }}
+    - name: Run publish
+      run: |
+        set-cargo-version Cargo.toml $(git describe --tags --abbrev=0)
+        cargo publish
+
