@@ -1,5 +1,6 @@
 [package]
 name = "hello"
+description = "👋 Hello CLI in Rust"
 version = "0.1.0"
 edition = "2021"
 authors = ["Dat Nguyen <datnguyen.it09@gmail.com>"]
