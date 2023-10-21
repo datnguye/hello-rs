@@ -1,26 +1,26 @@
-# hello-rs
+# hello-rs (hola)
 
 Hello CLI in Rust
 
 ```bash
-hello --name World
+hola --name World
 # 👋 Hello World!
 ```
 
 ## Installation
 
 - Make sure you firstly [install Rust and Cargo](https://doc.rust-lang.org/cargo/getting-started/installation.html)
-- Install `hello` CLI:
+- Install `hola` CLI:
 
     ```bash
-    cargo install hello //TODO
+    cargo install hola --upgrade
     ```
 
 - Check `--help` for the CLI reference:
 
     ```log
-    $ hello --help
-    Usage: hello --name <NAME>
+    $ hola --help
+    Usage: hola --name <NAME>
 
     Options:
     -n, --name <NAME>  Name of the person to greet
